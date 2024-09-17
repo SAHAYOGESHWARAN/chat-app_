@@ -1,0 +1,38 @@
+/* Presence Indicator */
+.presence-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .user-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .presence-status {
+    display: flex;
+    align-items: center;
+  }
+  
+  .status-circle {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-right: 5px;
+  }
+  
+  .status-circle.online {
+    background-color: #4caf50;
+  }
+  
+  .status-circle.offline {
+    background-color: #ff4d4d;
+  }
+  
+  .user-name {
+    font-size: 14px;
+    color: #333;
+  }
+  
